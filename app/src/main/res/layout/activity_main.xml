@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="100dp"
+
+    tools:context="com.project.ank.latihandatabase.MainActivity">
+
+
+    <Button
+        android:id="@+id/showAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Data"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/insertAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert New Data"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/showAct"/>
+
+    <Button
+        android:id="@+id/updateAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/insertAct"
+        android:text="Update Data"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/deleteAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateAct"
+        android:text="Delete Data"
+        android:layout_centerHorizontal="true"/>
+
+</android.widget.RelativeLayout>

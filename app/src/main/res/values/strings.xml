@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Latihan Database</string>
+    <string name="search_delete"><![CDATA[SEARCH & DELETE]]></string>
+    <string name="type_name_you_want_delete">Type Name You Want Delete</string>
+    <string name="type_user_id_key_to_delete">Type User ID Key to Delete</string>
+    <string name="delete">Delete</string>
+</resources>
